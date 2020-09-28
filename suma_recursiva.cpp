@@ -18,6 +18,7 @@ int main(){
         scanf("%i", &num_elementos);
     }while(num_elementos <= 0);
     printf("La suma es: %i", sumar(num_elementos)); 
+    getch();
     return 0;
 }
 
